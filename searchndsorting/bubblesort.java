@@ -12,7 +12,11 @@ public class bubblesort{
                     arr[j+1] = temp;
                     count++;
                 }
+<<<<<<< HEAD
             }
+=======
+             }
+>>>>>>> cfe90274c27c10f25c7ac63e4f1e91b41c56a129
                 if(count == 0){
                     break;                 // so here the TIME COMPLEXITY is --> O(n)    (without this count its O(n^2))
                 }
