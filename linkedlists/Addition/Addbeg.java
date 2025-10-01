@@ -1,5 +1,5 @@
 import java.util.*;
-public class Addatlast{
+public class Addbeg{
     public static class Node{
         int data;
         Node next;
@@ -30,7 +30,7 @@ public class Addatlast{
         System.out.println();
     }
     public static void main(String[] args){
-        Addatlast ll = new Addatlast();
+        Addbeg ll = new Addbeg();
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         for(int i=0;i<N;i++){

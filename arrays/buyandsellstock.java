@@ -1,4 +1,4 @@
-//Write a prog to find the best price to 
+//This is a  prog to find the max profit that can be obtained from give set of prices 
 import java.util.*;
 public class buyandsellstock{
     public static void main(String[] args){

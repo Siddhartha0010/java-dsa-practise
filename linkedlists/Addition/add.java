@@ -33,7 +33,7 @@ public class add{
             return;
         }
         tail.next = newnode;
-        tail = newnode; 
+        newnode.next=null; 
     }
     public void printlist(){
         Node temp = head;
