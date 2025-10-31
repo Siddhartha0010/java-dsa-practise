@@ -46,6 +46,7 @@ public class removelast{
             temp.next = null;
             tail = temp;
         }
+        
     
     public static void main(String[] args){
         System.out.print("Enter size:");
