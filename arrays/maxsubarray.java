@@ -17,6 +17,13 @@ public class maxsubarray{
             }
             
         }
+        if(maxsum==0){
+              int currsum =0;
+                    for (int i = 1; i < num.length; i++) {
+                        currsum = Math.max(num[i], currsum + num[i]);  
+                        maxsum= Math.max(maxsum, currsum);
+    }
+                }
         System.out.print(maxsum);
 
     }
