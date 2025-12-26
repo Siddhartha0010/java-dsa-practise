@@ -13,8 +13,8 @@ public class maxcontainer{
             for(int j=i+1;j<list.size();j++){
                 breadth = Math.min(list.get(i),list.get(j));
                 len = j-i;
-                area = breadth*len;
-                max = Math.max(area,max);
+                area = breadth*len;  //1   
+                max = Math.max(area,max);  //2
             }
         }
         System.out.print(max);

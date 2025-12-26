@@ -1,3 +1,4 @@
+//we need to make ith element 1
 import java.util.*;
 public class settingbit{
     public static int setbit(int num,int ith){

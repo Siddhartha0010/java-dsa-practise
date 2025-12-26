@@ -6,9 +6,8 @@ public class reverse{
         var.add(2);
         var.add(3);
         var.add(4);
-        for(int i=var.size();i>0;i--){
-            System.out.print(var.get(i)+" ");
-        }
+        Collections.reverse(var);
+        System.out.print(var);
         
     }
 }
